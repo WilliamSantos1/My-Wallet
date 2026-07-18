@@ -1,0 +1,63 @@
+.home__main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.home__bank-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to top, #bdbbbb, #e8e8e8);
+    border: 1px solid rgb(105, 105, 107);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.home__transaction-header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1rem;
+    background: #bdbbbb;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid rgb(105, 105, 107);
+    margin: 0;
+}
+.home__transaction-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #bdbbbb, #e8e8e8);
+    border: 1px solid rgb(105, 105, 107);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+.home__button-plus{
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 30px;
+    background: linear-gradient(to top, #929090, #e8e8e8);
+    border: 1px solid rgb(105, 105, 107);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.home__button-text{
+    color: rgb(105, 105, 107);;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    user-select: none;
+}
